@@ -1,4 +1,15 @@
+require './lib/bike'
+
 class DockingStation
-    def release_bike
+    attr_reader :bikes
+    def intiliaize
+        @bikes = []
     end
+    def release_bike
+        @bikes.pop
+    end
+    def dock_bike(bike)
+        @bikes << bike
+    end 
 end
+
