@@ -1,4 +1,4 @@
-require './lib/boris_bike'
+require './lib/docking_station'
 
 describe 'DockingStation' do
 
