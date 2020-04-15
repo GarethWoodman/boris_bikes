@@ -2,7 +2,7 @@ require './lib/bike'
 
 class DockingStation
     attr_reader :bikes
-    def intiliaize
+    def initialize
         @bikes = []
     end
     def release_bike
